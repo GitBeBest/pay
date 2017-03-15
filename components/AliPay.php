@@ -54,4 +54,24 @@ class AliPay
         $response= $this->pay_client->execute($this->pay_request);
         return $response;
     }
+
+    public function transfer() {
+        $this->pay_request = new AlipayFundTransToaccountTransferRequest();
+        $this->pay_request->setBizContent(
+            "{".
+            "    \"out_biz_no\":\"3142321423432\"," .
+            "    \"payee_type\":\"ALIPAY_LOGONID\"," .
+            "    \"payee_account\":\"abc@sina.com\"," .
+            "    \"amount\":\"0.01\"," .
+            "    \"payer_real_name\":\"上海交通卡公司\"," .
+            "    \"payer_show_name\":\"上海交通卡退款\"," .
+            "    \"payee_real_name\":\"张三\"," .
+            "    \"remark\":\"转账备注\"," .
+            "    \"ext_param\":\"{\\\"order_title\\\":\\\"上海交通卡退款\\\"}\"" .
+            "  }"
+        );
+
+        $result = $this->pay_client->execute($this->pay_request);
+        return $result;
+    }
 }

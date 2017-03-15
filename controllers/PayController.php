@@ -8,4 +8,10 @@ class PayController extends CController
 		$response = $alipay->pay();
 		echo $response;
 	}
+
+	public function trans() {
+        $pay = new AliPay();
+        $result = $pay->transfer();
+        var_dump($result);
+    }
 }

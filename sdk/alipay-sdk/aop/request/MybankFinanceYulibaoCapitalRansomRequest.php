@@ -3,7 +3,7 @@
  * ALIPAY API: mybank.finance.yulibao.capital.ransom request
  *
  * @author auto create
- * @since 1.0, 2016-09-20 11:38:14
+ * @since 1.0, 2016-11-18 16:08:08
  */
 class MybankFinanceYulibaoCapitalRansomRequest
 {

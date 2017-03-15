@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.ebpp.bill.batch.payurl.get request
  *
  * @author auto create
- * @since 1.0, 2014-06-12 17:16:57
+ * @since 1.0, 2016-10-31 19:40:07
  */
 class AlipayEbppBillBatchPayurlGetRequest
 {

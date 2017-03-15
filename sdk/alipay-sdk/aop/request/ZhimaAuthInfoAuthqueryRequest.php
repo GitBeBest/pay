@@ -3,7 +3,7 @@
  * ALIPAY API: zhima.auth.info.authquery request
  *
  * @author auto create
- * @since 1.0, 2016-09-21 19:49:58
+ * @since 1.0, 2016-11-08 10:37:18
  */
 class ZhimaAuthInfoAuthqueryRequest
 {
@@ -19,7 +19,7 @@ class ZhimaAuthInfoAuthqueryRequest
 	private $apiVersion="1.0";
 	private $notifyUrl;
 	private $returnUrl;
-    private $needEncrypt=true;
+    private $needEncrypt=false;
 
 	
 	public function setBizContent($bizContent)

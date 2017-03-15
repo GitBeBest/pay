@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.public.partner.menu.query request
  *
  * @author auto create
- * @since 1.0, 2016-03-31 21:03:11
+ * @since 1.0, 2016-12-08 12:10:27
  */
 class AlipayOpenPublicPartnerMenuQueryRequest
 {

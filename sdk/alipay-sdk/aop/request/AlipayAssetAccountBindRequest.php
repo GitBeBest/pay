@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.asset.account.bind request
  *
  * @author auto create
- * @since 1.0, 2014-06-12 17:17:01
+ * @since 1.0, 2016-10-11 19:38:33
  */
 class AlipayAssetAccountBindRequest
 {

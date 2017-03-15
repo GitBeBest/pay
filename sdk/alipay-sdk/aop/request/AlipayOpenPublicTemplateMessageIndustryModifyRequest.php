@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.public.template.message.industry.modify request
  *
  * @author auto create
- * @since 1.0, 2016-01-12 18:12:52
+ * @since 1.0, 2016-12-08 12:05:08
  */
 class AlipayOpenPublicTemplateMessageIndustryModifyRequest
 {
